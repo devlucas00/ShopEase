@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>ShopEase</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo"><img src="assets/logo.png" alt="Logo E-commerce"></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+                <div class="cart-count"><span id="cart-count">0</span></div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="main-content">
+            <div class="destaque">
+                <div class="banner"><img src="assets/banner.png" alt="Banner de promoção"></div>
+                <div class="cta-products"><a href="#products">Confira nossos produtos</a></div>
+            </div>
+            <div id="products">
+                <h2>Nossos produtos</h2>
+                <div class="products-list">
+                    <div class="product-card">
+                        <img src="assets/product1.png" alt="Imagem do produto 1.">
+                        <span class ="product-name">Zenith Core</span>
+                        <span class ="product-price">R$ 349,00</span>
+                        <a href="#">Adicionar ao carrinho</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product2.png" alt="Imagem do produto 2.">
+                        <span class ="product-name">Spectra S7</span>
+                        <span class ="product-price">R$ 2.899,00</span>
+                        <a href="#">Adicionar ao carrinho</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product3.png" alt="Imagem do produto 3.">
+                        <span class ="product-name">Chronos X1</span>
+                        <span class ="product-price">R$ 999,00</span>
+                        <a href="#">Adicionar ao carrinho</a>
+                    </div>
+                    <div class="product-card">
+                        <img src="assets/product4.png" alt="Imagem do produto 4.">
+                        <span class ="product-name">Sonic Flow</span>
+                        <span class ="product-price">R$ 479,00</span>
+                        <a href="#">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+            </div>
+            <div id="cart-panel" class="cart-panel">
+                <div class="cart-header">
+                    <h3>Seu Carrinho</h3>
+                    <button id="close-cart" class="close-btn"><i class="fas fa-times"></i></button>
+                </div>
+
+                <div class="cart-items">
+                    
+                    <p class="empty-cart">Seu carrinho está vazio.</p>
+                </div>
+
+                <div class="cart-summary">
+                    <p>Subtotal: <span id="cart-subtotal">R$ 0,00</span></p>
+                    <p>Total: <span id="cart-total">R$ 0,00</span></p>
+                    <div class="checkout-form">
+                        <h4>Finalize sua Compra</h4>
+                        <input type="text" id="checkout-name" placeholder="Nome" required>
+                        <input type="email" id="checkout-email" placeholder="E-mail" required>
+                        <input type="text" id="checkout-address" placeholder="Endereço" required>
+                        <button id="checkout-btn">Finalizar Compra</button>
+                        <p id="checkout-message" class="checkout-message"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="contact">
+                <p>Email: contato@ShopEase.com</p>
+                <p>Telefone: (00) 99999-9999</p>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a> |
+                <a href="#products">Produtos</a> |
+                <a href="#contato">Contato</a>
+            </div>
+            <div class="socials">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2025 ShopEase. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
