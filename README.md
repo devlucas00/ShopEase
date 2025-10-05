@@ -1,3 +1,7 @@
+## 🌐 Visualizar o Projeto
+
+🔗 [**Acesse o Mini E-Commerce online**](https://devlucas00.github.io/ShopEase/)
+
 # ShopEase 🛒
 
 > E-commerce simples criado para portfolio, demonstrando habilidades em **HTML, CSS e JavaScript**.
